@@ -1,18 +1,18 @@
-# webpack-4-quickstart
-> Webpack 4 tutorial: All You Need to Know, from 0 Conf to Production Mode
+# React + Redux + React Router + Redux + Async Thunks + Babel (ES6) + Weback 4
+a.k.a "All-inclusive React"
 
-[![Donate](https://img.shields.io/badge/donate-patreon-orange.svg)](https://www.patreon.com/valentinogagliardi)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE)
+## Included
+This demo includes the requisite parts to demonstrate usage of react, React Router, Redux, and asynchronous actions using Thunks. Tooling to compile transpile ES6 using Webpack 4 and Babel.
+
+## Credits
+Based on the amazing work done by 
+Valentino Gagliardi - [valentinog.com](https://www.valentinog.com) - valentino@valentinog.com
 
 ## Development
 
 ```bash
 npm i && npm run start
 ```
-
-## Meta
-
-Valentino Gagliardi - [valentinog.com](https://www.valentinog.com) - valentino@valentinog.com
 
 ## License
 
