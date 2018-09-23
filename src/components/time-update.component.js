@@ -19,7 +19,6 @@ class ConnectedUpdateTime extends React.Component {
     handleButtonClick(event) {
         event.preventDefault();
         const date = Date.now();
-        console.log('handle button click new time is', date);
         this.props.updateTime(date);
     }
 

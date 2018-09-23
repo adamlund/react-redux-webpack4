@@ -1,4 +1,4 @@
-# React + Redux + React Router + Redux + Async Thunks + Babel (ES6) + Weback 4
+# React + Redux + React Router + Babel (ES6) + Weback 4
 a.k.a "All-inclusive React"
 
 ## Included

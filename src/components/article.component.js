@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-
 const mapStateToProps = (state, ownProps) => {
     return {
         articles: state.articles,
@@ -12,7 +11,6 @@ const mapStateToProps = (state, ownProps) => {
 
 function getArticle (articles, id) {
     const article = articles.find((item) => item.id === id);
-    console.log('found article', article);
     return <div>article id: {article.id} title: {article.title}</div>;
 }
 

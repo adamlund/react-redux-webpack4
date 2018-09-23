@@ -10,7 +10,6 @@ const rootReducer = (state = initialState, action) => {
         case ADD_ARTICLE:
             return { ...state, articles: [...state.articles, action.payload] };
         case UPDATE_TIME:
-            console.log('root reducer update_time state:', state, 'action', action);
             return { ...state, currentTime: action.currentTime };
         default:
             return state;

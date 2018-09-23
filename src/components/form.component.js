@@ -5,7 +5,6 @@ import { addArticle } from '../actions/index';
 import uuidv1 from 'uuid';
 
 const mapDispatchToProps = dispatch => {
-    console.log('wire up dispatch fn in ConnectedForm');
     return {
         addArticle: article => dispatch(addArticle(article)),
         consoleLog: logString => console.log('mapDispatchToProps consoleLog: ',logString)
